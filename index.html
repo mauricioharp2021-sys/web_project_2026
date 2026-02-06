@@ -3,7 +3,7 @@
 <head>
     <title>Mauricio Harp | ICT 420 Website</title>
     <!-- <base href="https://www.example.org/"> -->
-    <link rel="stylesheet" href="css/style.css">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Mauricio Harp">
@@ -17,7 +17,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#about.html">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -29,13 +29,25 @@
             <h3>Semantic Web Development</h3>
         </header>
 
-        <section>
-            <header>
-                <h2>What this site is</h2>
-                <aside>This site is being built step-by-step using semantic HTML5 structure.</aside>
-                <h3>Current goal</h3>
-            </header>
-        </section>
+    <section>
+    <header>
+        <h2>What this site is</h2>
+    </header>
+
+    <figure>
+        <picture>
+            <source srcset="media/dog-small.jpg" media="(max-width: 600px)">
+            <source srcset="media/dog-large.jpg" media="(min-width: 601px)">
+            <img src="media/dog-large.jpg"
+                 alt="My dog lying on a hardwood floor in sunlight">
+        </picture>
+        <figcaption>My dog relaxing at home.</figcaption>
+    </figure>
+
+    <aside>This site is being built step-by-step using semantic HTML5 structure.</aside>
+
+    <h3>Current goal</h3>
+</section>
 
         <section>
             <header>
